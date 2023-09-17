@@ -1,4 +1,4 @@
-
+/* 
 .manage-field {
     display: flex;
     flex-direction: column;
@@ -56,4 +56,58 @@
         border-radius: 10px;
         letter-spacing: 4px;
         width: 200px;
+} */
+
+
+.manage-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+.manage-field__play {
+    margin-bottom: 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
+.manage-field__play:focus {
+    border: 1px solid white;
+}
+.manage-field__play:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.manage-field__restart {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
+.manage-field__restart:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.counter {
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    letter-spacing: 4px;
+    width: 200px;
 }

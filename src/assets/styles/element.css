@@ -1,0 +1,56 @@
+/* .field div.I {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px white;
+  }
+  
+  .field div.L {
+    background-color: palegreen;
+    box-shadow: 1px 1px 10px white;
+    border: 1px solid black;
+  }
+  
+  .field div.O {
+    background-color: palevioletred;
+    box-shadow: 1px 1px 10px white;
+    border: 1px solid black;
+  }
+  
+  .field div.S {
+    background-color: peachpuff;
+    box-shadow: 1px 1px 10px white;
+    border: 1px solid black;
+  }
+  
+  .field div.T {
+    background-color: paleturquoise;
+    box-shadow: 1px 1px 10px white;
+    border: 1px solid black;
+  } */
+
+
+.field div.I {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px white;
+}
+.field div.L {
+    background-color: palegreen;
+    box-shadow: 1px 1px 10px white;
+    border: 1px solid black;
+}
+.field div.O {
+    background-color: palevioletred;
+    box-shadow: 1px 1px 10px white;
+    border: 1px solid black;
+}
+.field div.S {
+    background-color: peachpuff;
+    box-shadow: 1px 1px 10px white;
+    border: 1px solid black;
+}
+.field div.T {
+    background-color: paleturquoise;
+    box-shadow: 1px 1px 10px white;
+    border: 1px solid black;
+}

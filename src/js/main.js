@@ -1,5 +1,5 @@
 import '../index.html';
-import '../assets/styles/style.scss';
+import '../assets/styles/style.css';
 import { tetrominoes, tetromino_elements } from './tetrominoes';
 
 
@@ -76,7 +76,7 @@ const gameOver = () => {
     setTimeout(() => {
         counter = 0;
         isGameOver = false;
-        document.querySelector('.counter').innerHTML = `Score : 0`;
+        document.querySelector('.counter').innerHTML = `Счет : 0`;
         document.addEventListener('keydown', onKeyDown);
         startLoop();
         cells.forEach(cell => cell.innerHTML = '');
@@ -307,7 +307,7 @@ play.addEventListener('click', moveDown);
 restart.addEventListener('click', () => {
     counter = 0;
     isGameOver = false;
-    document.querySelector('.counter').innerHTML = `Score : 0`;
+    document.querySelector('.counter').innerHTML = `Счет : 0`;
     document.addEventListener('keydown', onKeyDown);
     startLoop();
     cells.forEach(cell => cell.innerHTML = '');
